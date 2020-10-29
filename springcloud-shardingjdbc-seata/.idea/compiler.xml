@@ -6,14 +6,151 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="seata-discovery-consul" />
+        <module name="seata-config-nacos" />
+        <module name="seata-discovery-all" />
+        <module name="seata-config-consul" />
+        <module name="seata-spring" />
+        <module name="seata-http" />
+        <module name="seata-discovery-redis" />
+        <module name="seata-spring-boot-starter" />
+        <module name="seata-serializer-seata" />
+        <module name="seata-serializer-protobuf" />
+        <module name="seata-dubbo-alibaba" />
+        <module name="seata-saga-rm" />
+        <module name="seata-all" />
+        <module name="seata-metrics-exporter-prometheus" />
+        <module name="seata-compressor-gzip" />
         <module name="sharding-order-service" />
+        <module name="seata-grpc" />
+        <module name="seata-tcc" />
+        <module name="seata-metrics-registry-compact" />
+        <module name="seata-compressor-bzip2" />
+        <module name="seata-discovery-etcd3" />
+        <module name="seata-config-apollo" />
+        <module name="seata-saga-processctrl" />
+        <module name="seata-metrics-core" />
+        <module name="seata-config-all" />
+        <module name="seata-compressor-all" />
+        <module name="seata-compressor-zip" />
+        <module name="seata-discovery-zk" />
+        <module name="seata-serializer-all" />
+        <module name="seata-sqlparser-core" />
+        <module name="seata-config-etcd3" />
+        <module name="seata-saga-engine" />
+        <module name="seata-discovery-eureka" />
+        <module name="seata-config-spring-cloud" />
+        <module name="seata-motan" />
+        <module name="seata-sqlparser-druid" />
+        <module name="seata-serializer-fst" />
+        <module name="seata-config-core" />
+        <module name="seata-sofa-rpc" />
+        <module name="seata-saga-tm" />
+        <module name="seata-common" />
+        <module name="seata-core" />
+        <module name="eureka" />
+        <module name="seata-rm" />
+        <module name="seata-saga-statelang" />
+        <module name="seata-test" />
+        <module name="seata-dubbo" />
+        <module name="seata-compressor-7z" />
         <module name="sharding-pay-service" />
+        <module name="seata-metrics-all" />
+        <module name="seata-discovery-core" />
+        <module name="seata-rm-datasource" />
+        <module name="seata-serializer-kryo" />
+        <module name="seata-tm" />
+        <module name="seata-metrics-api" />
+        <module name="seata-server" />
+        <module name="seata-discovery-nacos" />
+        <module name="seata-config-custom" />
+        <module name="seata-saga-engine-store" />
+        <module name="seata-config-zk" />
+        <module name="seata-discovery-sofa" />
+        <module name="seata-serializer-hessian" />
+        <module name="seata-discovery-custom" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka" target="1.8" />
+      <module name="seata-all" target="1.8" />
+      <module name="seata-bom" target="1.8" />
+      <module name="seata-common" target="1.8" />
+      <module name="seata-compressor" target="1.8" />
+      <module name="seata-compressor-7z" target="1.8" />
+      <module name="seata-compressor-all" target="1.8" />
+      <module name="seata-compressor-bzip2" target="1.8" />
+      <module name="seata-compressor-gzip" target="1.8" />
+      <module name="seata-compressor-zip" target="1.8" />
+      <module name="seata-config" target="1.8" />
+      <module name="seata-config-all" target="1.8" />
+      <module name="seata-config-apollo" target="1.8" />
+      <module name="seata-config-consul" target="1.8" />
+      <module name="seata-config-core" target="1.8" />
+      <module name="seata-config-custom" target="1.8" />
+      <module name="seata-config-etcd3" target="1.8" />
+      <module name="seata-config-nacos" target="1.8" />
+      <module name="seata-config-spring-cloud" target="1.8" />
+      <module name="seata-config-zk" target="1.8" />
+      <module name="seata-core" target="1.8" />
+      <module name="seata-discovery" target="1.8" />
+      <module name="seata-discovery-all" target="1.8" />
+      <module name="seata-discovery-consul" target="1.8" />
+      <module name="seata-discovery-core" target="1.8" />
+      <module name="seata-discovery-custom" target="1.8" />
+      <module name="seata-discovery-etcd3" target="1.8" />
+      <module name="seata-discovery-eureka" target="1.8" />
+      <module name="seata-discovery-nacos" target="1.8" />
+      <module name="seata-discovery-redis" target="1.8" />
+      <module name="seata-discovery-sofa" target="1.8" />
+      <module name="seata-discovery-zk" target="1.8" />
+      <module name="seata-distribution" target="1.8" />
+      <module name="seata-dubbo" target="1.8" />
+      <module name="seata-dubbo-alibaba" target="1.8" />
+      <module name="seata-grpc" target="1.8" />
+      <module name="seata-http" target="1.8" />
+      <module name="seata-metrics" target="1.8" />
+      <module name="seata-metrics-all" target="1.8" />
+      <module name="seata-metrics-api" target="1.8" />
+      <module name="seata-metrics-core" target="1.8" />
+      <module name="seata-metrics-exporter-prometheus" target="1.8" />
+      <module name="seata-metrics-registry-compact" target="1.8" />
+      <module name="seata-motan" target="1.8" />
+      <module name="seata-parent" target="1.8" />
+      <module name="seata-rm" target="1.8" />
+      <module name="seata-rm-datasource" target="1.8" />
+      <module name="seata-saga" target="1.8" />
+      <module name="seata-saga-engine" target="1.8" />
+      <module name="seata-saga-engine-store" target="1.8" />
+      <module name="seata-saga-processctrl" target="1.8" />
+      <module name="seata-saga-rm" target="1.8" />
+      <module name="seata-saga-statelang" target="1.8" />
+      <module name="seata-saga-tm" target="1.8" />
+      <module name="seata-serializer" target="1.8" />
+      <module name="seata-serializer-all" target="1.8" />
+      <module name="seata-serializer-fst" target="1.8" />
+      <module name="seata-serializer-hessian" target="1.8" />
+      <module name="seata-serializer-kryo" target="1.8" />
+      <module name="seata-serializer-protobuf" target="1.8" />
+      <module name="seata-serializer-seata" target="1.8" />
+      <module name="seata-server" target="1.8" />
+      <module name="seata-sofa-rpc" target="1.8" />
+      <module name="seata-spring" target="1.8" />
+      <module name="seata-spring-boot-starter" target="1.8" />
+      <module name="seata-sqlparser" target="1.8" />
+      <module name="seata-sqlparser-core" target="1.8" />
+      <module name="seata-sqlparser-druid" target="1.8" />
+      <module name="seata-tcc" target="1.8" />
+      <module name="seata-test" target="1.8" />
+      <module name="seata-tm" target="1.8" />
       <module name="sharding-order-service" target="1.8" />
       <module name="sharding-pay-service" target="1.8" />
       <module name="springcloud-shardingjdbc-seata" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka" options="-parameters" />
+    </option>
   </component>
 </project>

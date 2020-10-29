@@ -2,6 +2,77 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/all/seata-all.iml" filepath="$PROJECT_DIR$/seata-1.2.0/all/seata-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/bom/seata-bom.iml" filepath="$PROJECT_DIR$/seata-1.2.0/bom/seata-bom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/common/seata-common.iml" filepath="$PROJECT_DIR$/seata-1.2.0/common/seata-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/compressor/seata-compressor.iml" filepath="$PROJECT_DIR$/seata-1.2.0/compressor/seata-compressor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/compressor/seata-compressor-7z/seata-compressor-7z.iml" filepath="$PROJECT_DIR$/seata-1.2.0/compressor/seata-compressor-7z/seata-compressor-7z.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/compressor/seata-compressor-all/seata-compressor-all.iml" filepath="$PROJECT_DIR$/seata-1.2.0/compressor/seata-compressor-all/seata-compressor-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/compressor/seata-compressor-bzip2/seata-compressor-bzip2.iml" filepath="$PROJECT_DIR$/seata-1.2.0/compressor/seata-compressor-bzip2/seata-compressor-bzip2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/compressor/seata-compressor-gzip/seata-compressor-gzip.iml" filepath="$PROJECT_DIR$/seata-1.2.0/compressor/seata-compressor-gzip/seata-compressor-gzip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/compressor/seata-compressor-zip/seata-compressor-zip.iml" filepath="$PROJECT_DIR$/seata-1.2.0/compressor/seata-compressor-zip/seata-compressor-zip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/config/seata-config.iml" filepath="$PROJECT_DIR$/seata-1.2.0/config/seata-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/config/seata-config-all/seata-config-all.iml" filepath="$PROJECT_DIR$/seata-1.2.0/config/seata-config-all/seata-config-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/config/seata-config-apollo/seata-config-apollo.iml" filepath="$PROJECT_DIR$/seata-1.2.0/config/seata-config-apollo/seata-config-apollo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/config/seata-config-consul/seata-config-consul.iml" filepath="$PROJECT_DIR$/seata-1.2.0/config/seata-config-consul/seata-config-consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/config/seata-config-core/seata-config-core.iml" filepath="$PROJECT_DIR$/seata-1.2.0/config/seata-config-core/seata-config-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/config/seata-config-custom/seata-config-custom.iml" filepath="$PROJECT_DIR$/seata-1.2.0/config/seata-config-custom/seata-config-custom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/config/seata-config-etcd3/seata-config-etcd3.iml" filepath="$PROJECT_DIR$/seata-1.2.0/config/seata-config-etcd3/seata-config-etcd3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/config/seata-config-nacos/seata-config-nacos.iml" filepath="$PROJECT_DIR$/seata-1.2.0/config/seata-config-nacos/seata-config-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/config/seata-config-spring-cloud/seata-config-spring-cloud.iml" filepath="$PROJECT_DIR$/seata-1.2.0/config/seata-config-spring-cloud/seata-config-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/config/seata-config-zk/seata-config-zk.iml" filepath="$PROJECT_DIR$/seata-1.2.0/config/seata-config-zk/seata-config-zk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/core/seata-core.iml" filepath="$PROJECT_DIR$/seata-1.2.0/core/seata-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery.iml" filepath="$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-all/seata-discovery-all.iml" filepath="$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-all/seata-discovery-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-consul/seata-discovery-consul.iml" filepath="$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-consul/seata-discovery-consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-core/seata-discovery-core.iml" filepath="$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-core/seata-discovery-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-custom/seata-discovery-custom.iml" filepath="$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-custom/seata-discovery-custom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-etcd3/seata-discovery-etcd3.iml" filepath="$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-etcd3/seata-discovery-etcd3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-eureka/seata-discovery-eureka.iml" filepath="$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-eureka/seata-discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-nacos/seata-discovery-nacos.iml" filepath="$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-nacos/seata-discovery-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-redis/seata-discovery-redis.iml" filepath="$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-redis/seata-discovery-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-sofa/seata-discovery-sofa.iml" filepath="$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-sofa/seata-discovery-sofa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-zk/seata-discovery-zk.iml" filepath="$PROJECT_DIR$/seata-1.2.0/discovery/seata-discovery-zk/seata-discovery-zk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/distribution/seata-distribution.iml" filepath="$PROJECT_DIR$/seata-1.2.0/distribution/seata-distribution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/integration/dubbo/seata-dubbo.iml" filepath="$PROJECT_DIR$/seata-1.2.0/integration/dubbo/seata-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/integration/dubbo-alibaba/seata-dubbo-alibaba.iml" filepath="$PROJECT_DIR$/seata-1.2.0/integration/dubbo-alibaba/seata-dubbo-alibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/integration/grpc/seata-grpc.iml" filepath="$PROJECT_DIR$/seata-1.2.0/integration/grpc/seata-grpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/integration/http/seata-http.iml" filepath="$PROJECT_DIR$/seata-1.2.0/integration/http/seata-http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/metrics/seata-metrics.iml" filepath="$PROJECT_DIR$/seata-1.2.0/metrics/seata-metrics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/metrics/seata-metrics-all/seata-metrics-all.iml" filepath="$PROJECT_DIR$/seata-1.2.0/metrics/seata-metrics-all/seata-metrics-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/metrics/seata-metrics-api/seata-metrics-api.iml" filepath="$PROJECT_DIR$/seata-1.2.0/metrics/seata-metrics-api/seata-metrics-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/metrics/seata-metrics-core/seata-metrics-core.iml" filepath="$PROJECT_DIR$/seata-1.2.0/metrics/seata-metrics-core/seata-metrics-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/metrics/seata-metrics-exporter-prometheus/seata-metrics-exporter-prometheus.iml" filepath="$PROJECT_DIR$/seata-1.2.0/metrics/seata-metrics-exporter-prometheus/seata-metrics-exporter-prometheus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/metrics/seata-metrics-registry-compact/seata-metrics-registry-compact.iml" filepath="$PROJECT_DIR$/seata-1.2.0/metrics/seata-metrics-registry-compact/seata-metrics-registry-compact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/integration/motan/seata-motan.iml" filepath="$PROJECT_DIR$/seata-1.2.0/integration/motan/seata-motan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/seata-parent.iml" filepath="$PROJECT_DIR$/seata-1.2.0/seata-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/rm/seata-rm.iml" filepath="$PROJECT_DIR$/seata-1.2.0/rm/seata-rm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/rm-datasource/seata-rm-datasource.iml" filepath="$PROJECT_DIR$/seata-1.2.0/rm-datasource/seata-rm-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/saga/seata-saga.iml" filepath="$PROJECT_DIR$/seata-1.2.0/saga/seata-saga.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/saga/seata-saga-engine/seata-saga-engine.iml" filepath="$PROJECT_DIR$/seata-1.2.0/saga/seata-saga-engine/seata-saga-engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/saga/seata-saga-engine-store/seata-saga-engine-store.iml" filepath="$PROJECT_DIR$/seata-1.2.0/saga/seata-saga-engine-store/seata-saga-engine-store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/saga/seata-saga-processctrl/seata-saga-processctrl.iml" filepath="$PROJECT_DIR$/seata-1.2.0/saga/seata-saga-processctrl/seata-saga-processctrl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/saga/seata-saga-rm/seata-saga-rm.iml" filepath="$PROJECT_DIR$/seata-1.2.0/saga/seata-saga-rm/seata-saga-rm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/saga/seata-saga-statelang/seata-saga-statelang.iml" filepath="$PROJECT_DIR$/seata-1.2.0/saga/seata-saga-statelang/seata-saga-statelang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/saga/seata-saga-tm/seata-saga-tm.iml" filepath="$PROJECT_DIR$/seata-1.2.0/saga/seata-saga-tm/seata-saga-tm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer.iml" filepath="$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer-all/seata-serializer-all.iml" filepath="$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer-all/seata-serializer-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer-fst/seata-serializer-fst.iml" filepath="$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer-fst/seata-serializer-fst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer-hessian/seata-serializer-hessian.iml" filepath="$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer-hessian/seata-serializer-hessian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer-kryo/seata-serializer-kryo.iml" filepath="$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer-kryo/seata-serializer-kryo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer-protobuf/seata-serializer-protobuf.iml" filepath="$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer-protobuf/seata-serializer-protobuf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer-seata/seata-serializer-seata.iml" filepath="$PROJECT_DIR$/seata-1.2.0/serializer/seata-serializer-seata/seata-serializer-seata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/server/seata-server.iml" filepath="$PROJECT_DIR$/seata-1.2.0/server/seata-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/integration/sofa-rpc/seata-sofa-rpc.iml" filepath="$PROJECT_DIR$/seata-1.2.0/integration/sofa-rpc/seata-sofa-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/spring/seata-spring.iml" filepath="$PROJECT_DIR$/seata-1.2.0/spring/seata-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/seata-spring-boot-starter/seata-spring-boot-starter.iml" filepath="$PROJECT_DIR$/seata-1.2.0/seata-spring-boot-starter/seata-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/sqlparser/seata-sqlparser.iml" filepath="$PROJECT_DIR$/seata-1.2.0/sqlparser/seata-sqlparser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/sqlparser/seata-sqlparser-core/seata-sqlparser-core.iml" filepath="$PROJECT_DIR$/seata-1.2.0/sqlparser/seata-sqlparser-core/seata-sqlparser-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/sqlparser/seata-sqlparser-druid/seata-sqlparser-druid.iml" filepath="$PROJECT_DIR$/seata-1.2.0/sqlparser/seata-sqlparser-druid/seata-sqlparser-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/tcc/seata-tcc.iml" filepath="$PROJECT_DIR$/seata-1.2.0/tcc/seata-tcc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/test/seata-test.iml" filepath="$PROJECT_DIR$/seata-1.2.0/test/seata-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-1.2.0/tm/seata-tm.iml" filepath="$PROJECT_DIR$/seata-1.2.0/tm/seata-tm.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding-order-service/sharding-order-service.iml" filepath="$PROJECT_DIR$/sharding-order-service/sharding-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding-pay-service/sharding-pay-service.iml" filepath="$PROJECT_DIR$/sharding-pay-service/sharding-pay-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-shardingjdbc-seata.iml" filepath="$PROJECT_DIR$/springcloud-shardingjdbc-seata.iml" />
