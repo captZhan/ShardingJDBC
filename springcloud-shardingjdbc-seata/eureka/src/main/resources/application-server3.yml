@@ -1,0 +1,25 @@
+#端口号
+server:
+  port: 8887
+
+#Eureka实例名，集群中根据这里相互识别
+eureka:
+  # 关闭保护机制
+  server:
+    enable-self-preservation: true
+    #剔除失效服务间隔（默认60s=60000ms）
+    eviction-interval-timer-in-ms: 6000
+  instance:
+    hostname: eureka-server-peer3
+  #是否开启注册服务，因为这里如果为true表示自己注册自己，而自己就是一个服务注册方，没必要自己注册自己
+  #eureka.client.register-with-eureka=false
+  #是否拉取服务列表，这里我只提供服务给别的服务。
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    #注册中心地址
+    serviceUrl:
+      defaultZone: http://eureka-server-peer1:8888/eureka/,http://eureka-server-peer3:8887/eureka/,http://eureka-server-peer2:8889/eureka/
+
+logging:
+  config: 'classpath:conf/logback-prod.xml'

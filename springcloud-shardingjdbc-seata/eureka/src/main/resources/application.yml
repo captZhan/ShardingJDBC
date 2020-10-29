@@ -1,0 +1,12 @@
+#服务名
+spring:
+  application:
+    name: eureka-server
+  #链路路径
+  zipkin:
+    base-url: http://172.19.124.150:9411
+  profiles:
+    active: server1
+  sleuth:
+    sampler:
+      probability: 0.1
