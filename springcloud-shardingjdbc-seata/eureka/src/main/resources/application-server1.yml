@@ -1,6 +1,6 @@
 #端口号
 server:
-  port: 18088
+  port: 8888
 
 #Eureka实例名，集群中根据这里相互识别
 eureka:
