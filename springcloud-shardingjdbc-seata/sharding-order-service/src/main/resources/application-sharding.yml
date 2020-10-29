@@ -1,0 +1,141 @@
+spring:
+  shardingsphere:
+    datasource:
+      names: ds0, ds1,ds2,ds3
+      ds0:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://172.19.125.214:3306/sharding-seata-master1?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+        username: root
+        password: stcn123456
+      ds2:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://172.19.126.90:3306/sharding-seata-master1?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+        username: root
+        password: stcn123456
+      ds1:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://172.19.125.214:3306/sharding-seata-master2?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+        username: root
+        password: stcn123456
+      ds3:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://172.19.126.90:3306/sharding-seata-master2?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+        username: root
+        password: stcn123456
+#    masterslave:
+#      # 读写分离配置
+#      load-balance-algorithm-type: round_robin
+#      # 最终的数据源名称
+#      name: ds0,ds1ds2,ds3
+#      # 主库数据源名称
+#
+#      master-data-source-name: ds0,ds1
+#      # 从库数据源名称列表，多个逗号分隔
+#      slave-data-source-names: ds2,ds3
+    sharding:
+      tables:
+        t_order:
+          actual-data-nodes: ms_$->{0..1}.t_order$->{0..1}
+          key-generator:
+            column: id
+            type: SNOWFLAKE
+            props:
+              worker.id = 2
+          table-strategy:
+            inline:
+              sharding-column: id
+              algorithm-expression: t_order$->{id % 2}
+          database-strategy:
+            inline:
+              sharding-column: user_id
+              algorithm-expression: ms_$->{user_id % 2}
+      master-slave-rules:
+        ms_0:
+          master-data-source-name: ds0
+          # 从库数据源名称列表，多个逗号分隔
+          slave-data-source-names: ds2
+        ms_1:
+          master-data-source-name: ds1
+          # 从库数据源名称列表，多个逗号分隔
+          slave-data-source-names: ds3
+    props:
+      sql.show: true
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 3
+  client:
+    serviceUrl:
+      #defaultZone: http://eureka-server-peer1:8888/eureka/,http://eureka-server-peer3:8887/eureka/,http://eureka-server-peer2:8889/eureka/
+      defaultZone: http://eureka-server-peer1:8888/eureka/
+
+#spring:
+#  shardingsphere:
+#    dataSources:
+#      name: ds0,ds1,ds0_slave0,ds1_slave0
+#      ds0:
+#        type: com.alibaba.druid.pool.DruidDataSource
+#        driver-class-name: com.mysql.jdbc.Driver
+#        url: jdbc:mysql://172.19.125.214:3306/sharding-seata-master1?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+#        username: root
+#        password: stcn123456
+#      ds0_slave0:
+#        type: com.alibaba.druid.pool.DruidDataSource
+#        driver-class-name: com.mysql.jdbc.Driver
+#        url: jdbc:mysql://172.19.126.90:3306/sharding-seata-slave1?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+#        username: root
+#        password: stcn123456
+#
+#      ds1:
+#        type: com.alibaba.druid.pool.DruidDataSource
+#        driver-class-name: com.mysql.jdbc.Driver
+#        url: jdbc:mysql://172.19.125.214:3306/sharding-seata-master2?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+#        username: root
+#        password: stcn123456
+#      ds1_slave0:
+#        type: com.alibaba.druid.pool.DruidDataSource
+#        driver-class-name: com.mysql.jdbc.Driver
+#        url: jdbc:mysql://172.19.126.90:3306/sharding-seata-slave2?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+#        username: root
+#        password: stcn123456
+#    shardingRule:
+#      tables:
+#        t_order:
+#          actualDataNodes: ms_ds${0..1}.t_order{0..1}
+#          databaseStrategy:
+#            inline:
+#              shardingColumn: user_id
+#              algorithmExpression: ms_ds${user_id % 2}
+#          tableStrategy:
+#            inline:
+#              shardingColumn: id
+#              algorithmExpression: t_order${id % 2}
+#          keyGenerator:
+#            type: SNOWFLAKE
+#            column: id
+#      bindingTables:
+#        - t_order
+#      defaultDataSourceName: ds0
+#      defaultTableStrategy:
+#        none:
+#      defaultKeyGenerator:
+#        type: SNOWFLAKE
+#        column: order_id
+#
+#      masterSlaveRules:
+#        ms_ds0:
+#          masterDataSourceName: ds0
+#          slaveDataSourceNames:
+#            - ds0_slave0
+#          loadBalanceAlgorithmType: ROUND_ROBIN
+#        ms_ds1:
+#          masterDataSourceName: ds1
+#          slaveDataSourceNames:
+#            - ds1_slave0
+#          loadBalanceAlgorithmType: ROUND_ROBIN
+#    props:
+#      sql.show: true
