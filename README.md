@@ -1,5 +1,7 @@
 # ShardingJDBC
-读写分离,分库分表以及用seata解决分布式事务
+需要自己配置数据库主从
+
+读写分离,分库分表以及用seata解决分布式事务 
 需要seata的基础知识 本测试项目使用的seata版本为1.2 
 采用的是源码方式启动
 启动seata源码里面server模块的 server类的main方法
